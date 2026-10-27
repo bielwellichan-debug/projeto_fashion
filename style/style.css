@@ -36,7 +36,7 @@ body{
     color: #003d52;
 }
 
-.contato{
+.sobre{
     background-image: url(../img/bg_detalhe.png);
     background-size: cover;
     padding: 5%;
@@ -46,20 +46,26 @@ body{
     height: 600px;
 }
 
-.contato h2{
+.sobre h2{
     font-size: 50px;
     color: white;
 }
 
-.contato p{
+.sobre p{
     font-size: 17px;
     color: white;
     text-align: justify;
 }
 
 .container-imagens{
-    display: inline;
+    display: inline-block;
+    margin: 0 300px 0 300px;
+    padding: 10px;
 
+}
+
+#contato{
+    text-align: center;
 }
 
 .maps{
