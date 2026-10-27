@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-image: url(../img/topo.jpg);
+    width: 50%;
+    background-position: center;
+    height: 100%;
+    margin: auto;
+    background-size: cover;
+}
+
+.secao-topo{
+    
+}
