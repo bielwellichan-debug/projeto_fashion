@@ -10,10 +10,6 @@ body{
     color: black;
 }
 
-a{
-    color: #003d52;
-}
-
 .menu-lista{
     margin: 20px 0 0;
     padding: 0;
@@ -32,11 +28,33 @@ a{
     background-position: center;
     margin: auto;
     background-size: cover;
-    margin: 5vh 2vh 1vh 20vh
+    padding: 15%;
+}
+
+.cabecalho a{
+    display: inline-block;
+    color: #003d52;
 }
 
 .contato{
     background-image: url(../img/bg_detalhe.png);
+    background-size: cover;
+    padding: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 100px 0 100px;
+    height: 600px;
+}
+
+.contato h2{
+    font-size: 50px;
+    color: white;
+}
+
+.contato p{
+    font-size: 17px;
+    color: white;
+    text-align: justify;
 }
 
 .container-imagens{
@@ -46,8 +64,8 @@ a{
 
 .maps{
     text-align: center;
-    width: 100%;
     height: auto;
+    margin: 0 100px 0 100px;
 }
 
 footer{
